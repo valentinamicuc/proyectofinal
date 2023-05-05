@@ -196,3 +196,6 @@ main p {
     font-family: 'Roboto', sans-serif;
 }
 
+@media screen {
+    max-width
+}
