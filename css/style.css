@@ -162,6 +162,7 @@ footer ul p {
     margin: auto;
     justify-content: space-around;
     flex-wrap: wrap;
+    flex-basis: 100px;
 }
 
 header .navbar ul {
@@ -196,6 +197,15 @@ main p {
     font-family: 'Roboto', sans-serif;
 }
 
-@media screen {
-    max-width
+.flex-container{
+    display: flex;
+
+}
+
+@media ( max-width:576px) {
+    div{
+        grid-template-columns: 80%, 20%;
+        grid-template-rows: 0.5fr, 0.5fr, 1.2fr, 1fr, 0.5fr;
+        flex-direction: column;
+    }
 }
